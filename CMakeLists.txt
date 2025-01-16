@@ -8,6 +8,7 @@ project(Holovibes
 
 # Export compile_commands.json so IDE can use it for code completion.
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 set(LIB_DIR "${CMAKE_SOURCE_DIR}/libs")
 set(HOLO_DIR "${CMAKE_SOURCE_DIR}/Holovibes")
@@ -20,12 +21,10 @@ find_package(OpenCV REQUIRED)
 find_package(CUDA 12.2 REQUIRED)
 find_package(CUDAToolkit 12.2 REQUIRED)
 find_package(spdlog REQUIRED)
-find_package(opengl_system REQUIRED)
 find_package(GTest REQUIRED)
 find_package(nlohmann_json REQUIRED)
 find_package(Threads)
 
 add_subdirectory(Camera)
-#add_subdirectory(GPIB)
 add_subdirectory(Holovibes)
 add_subdirectory(docs)

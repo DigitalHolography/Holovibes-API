@@ -1,10 +1,10 @@
 ## Authors
 
+- Etienne Senigout
 - Titouan Gragnic
 - Arthur Courselle
 - Gustave Herve
 - Alexis Pinson
-- Etienne Senigout
 - Bastien Gaulier
 - Simon Riou
 - Adrien Langou
