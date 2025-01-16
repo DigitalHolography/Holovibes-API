@@ -1,0 +1,79 @@
+# =========================
+# General
+# =========================
+
+# Ignore Visual Studio config files
+.vscode/
+.vs/
+*.code-workspace
+
+# python cache from scripts
+__pycache__/
+
+# logs files
+*.log
+
+# =========================
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+# =========================
+# Holovibes
+# =========================
+
+# Build results
+build/bin/
+bin/
+Testing/
+build/generators/
+
+# Folders for setup creation
+setup_creator_files
+Output
+
+# Do not ignore .lib and .dll files in libs directory
+!libs/**/*.lib
+!libs/**/*.dll
+
+libs/glm/
+
+# Doxygen generated files
+latex
+html
+
+# Testing files
+*last_generated_output.holo
+*ref.holo
+ref_time.txt
+ref.png
+out.png
+diff.png
+output_error.txt
+error.txt
+test_logs/*
+
+# Jinja Generated files
+setupCreator.iss
+
+*.dll
+# Python venv
+.venv/
+venv/
+
+
+# spdlog
+libs/spdlog/build
+CMakeUserPresets.json
