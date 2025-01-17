@@ -72,6 +72,7 @@ target_compile_options(Holovibes PRIVATE
     --extended-lambda
     -Xcudafe --diag_suppress=field_without_dll_interface
     -diag-suppress 27
+    -Xcompiler=/wd4190
     >
     $<$<COMPILE_LANGUAGE:CXX>:
     /W3
